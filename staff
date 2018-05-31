@@ -1,0 +1,110 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" id="html" lang=""> <!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<title id="title">Welcome To Dashboard</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+		<link async rel="stylesheet" href="../../../assets/css/tachyons+loadingio.css?">
+
+		<link rel="shortcut icon" id="favicon" href="../../../assets/img/icon.png?">
+
+		<style>
+			tr:after {
+				content: ' ';
+				display: block;
+				visibility: hidden;
+				clear: both;
+			}
+
+			.alertPrimary {
+				background: #F00000;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.bg-secondary {
+				background: #2c3e50;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to top, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to top, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+
+			.btnPrimary, .bg-primary {
+				background: #F00000;  /* fallback for old browsers */
+				background: -webkit-linear-gradient(to bottom, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+				background: linear-gradient(to bottom, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+		</style>
+		<script>
+			function stopLoader(){
+				document.getElementById("appLoading").classList.toggle('dn');
+				document.getElementById("appContent").classList.toggle('dn');
+			}
+
+			function startLoader(ID){
+				if(ID==undefined || ID ==""){
+					document.getElementById("appLoading").classList.toggle('dn');
+					document.getElementById("appContent").classList.toggle('dn');
+				}
+			}
+		</script>
+	</head>
+
+
+
+	<body class="avenir w-100" >
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<span id="top"></span>
+		<section id="appMenu" class="top-0 z-max"></section>
+
+		<section id="appLoading" style="" class="min-vh-100 w-100 absolute dn z-max menuCloudBG">
+			<article class="dt center">
+				<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
+
+					<div class="spinner">
+						<div class="dot1"></div>
+						<div class="dot2"></div>
+					</div>
+
+				</div>
+			</article>
+		</section>
+
+		<section id="appContent" style="min-height:95vh" class="pb4">
+			<script>startLoader("Index")</script>
+			<section id="Index" style="" class="min-vh-100 w-100 absolute z-max menuCloudBG">
+				<article class="dt center">
+					<div class="dtc v-mid tc f6 fw3 vh-75 near-white">
+
+						<div class="spinner">
+							<div class="dot1"></div>
+							<div class="dot2"></div>
+						</div>
+
+					</div>
+				</article>
+			</section>
+		</section>
+
+  </body>
+	<script type="text/javascript">
+	(function(){
+	     // var randomh=Math.random();
+	     var randomh=new Date().valueOf();
+	     var e = document.getElementsByTagName("script")[0];
+	     var d = document.createElement("script");
+	     d.src = "../../../assets/bin/staff.min.js?"+randomh+"";
+	     d.type = "text/javascript";
+	     d.async = true;
+	     d.defer = true;
+	     e.parentNode.insertBefore(d,e);
+	 })();
+	</script>
+</html>
