@@ -107,4 +107,5 @@
 	     e.parentNode.insertBefore(d,e);
 	 })();
 	</script>
+	<script src="../../../assets/bin/custom.min.js?" type="text/javascript" charset="utf-8"></script>
 </html>

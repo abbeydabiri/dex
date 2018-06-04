@@ -49,7 +49,7 @@ var page = {
 	},
 	saveForm:function(){ saveForm(page); },
 	oninit: function() {
-		var cookie = getCookie("dex.essentials");
+		var cookie = getCookie("escng");
 		page.jwtToken = jwt_decode(cookie);
 
 		m.render(document.getElementById('appMenu'), m(viewHeader));

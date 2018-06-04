@@ -133,10 +133,10 @@ var page = {
 			{m("div",{class:"cf w-100 pv2"})}
 
 			{m("nav",{class:"w-100 z-max fixed bg-black bottom-0 tc center"},[
-				m(footerItem,{color:"red bg-white hover-bg-black hover-white", href:"/agent",icon:"person"},"PROMOTER"),
-				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/agent/consumer",icon:"people"},"CONSUMER"),
-				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/agent/outlet",icon:"basket"},"OUTLET"),
-				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/agent/media",icon:"aperture"},"MEDIA")
+				m(footerItem,{color:"red bg-white hover-bg-black hover-white", href:"/staff",icon:"person"},"AMBASSADOR"),
+				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/consumer",icon:"people"},"CONSUMER"),
+				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/outlet",icon:"basket"},"OUTLET"),
+				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/media",icon:"aperture"},"MEDIA")
 			])}
 
 		</section>

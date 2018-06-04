@@ -80,10 +80,10 @@ var menu = {
 				<div id="dashboardMenu"  class="w-70 w-30-m w-20-l fl dn bg-black-80 pa0 br2 br--bottom" style="">
 					<ul class="list pt0 pl0 w-100 ma0 overflow-scroll" style="">
 						{m(linkItem,{href:"/logout",icon:"logout"},"Logout")}
-						{m(menuItem,{href:"/agent/myprofile",icon:"user"},"Profile")}
-						{m(menuItem,{href:"/agent/taskmanager",icon:"user"},"Task Manager")}
-						{m(menuItem,{href:"/agent/notifications",icon:"user"},"Notifications")}
-						{m(menuItem,{href:"/agent/gethelp",icon:"user"},"Get Help")}
+						{m(menuItem,{href:"/staff/myprofile",icon:"user"},"Profile")}
+						{m(menuItem,{href:"/staff/taskmanager",icon:"user"},"Task Manager")}
+						{m(menuItem,{href:"/staff/notifications",icon:"user"},"Notifications")}
+						{m(menuItem,{href:"/staff/gethelp",icon:"user"},"Get Help")}
 					</ul>
 				</div>
 			</section>
