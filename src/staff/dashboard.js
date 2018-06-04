@@ -134,8 +134,8 @@ var page = {
 
 			{m("nav",{class:"w-100 z-max fixed bg-black bottom-0 tc center"},[
 				m(footerItem,{color:"red bg-white hover-bg-black hover-white", href:"/staff",icon:"person"},"AMBASSADOR"),
-				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/consumer",icon:"people"},"CONSUMER"),
 				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/outlet",icon:"basket"},"OUTLET"),
+				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/consumer",icon:"people"},"CONSUMER"),
 				m(footerItem,{color:"near-white hover-bg-white hover-red", href:"/staff/media",icon:"aperture"},"MEDIA")
 			])}
 
